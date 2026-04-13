@@ -1,0 +1,205 @@
+// ─── Modern F1 Teams & Drivers (2024-2025) ───
+export const MODERN_TEAMS = [
+  { id: 'red_bull',   name: 'Red Bull Racing',    color: '#3671C6', shortName: 'RBR' },
+  { id: 'ferrari',    name: 'Ferrari',             color: '#E8002D', shortName: 'FER' },
+  { id: 'mercedes',   name: 'Mercedes',            color: '#00D2BE', shortName: 'MER' },
+  { id: 'mclaren',    name: 'McLaren',             color: '#FF8000', shortName: 'MCL' },
+  { id: 'aston',      name: 'Aston Martin',        color: '#229971', shortName: 'AMR' },
+  { id: 'alpine',     name: 'Alpine',              color: '#0093CC', shortName: 'ALP' },
+  { id: 'williams',   name: 'Williams',            color: '#64C4FF', shortName: 'WIL' },
+  { id: 'haas',       name: 'Haas',                color: '#B6BABD', shortName: 'HAA' },
+  { id: 'rb',         name: 'Racing Bulls',        color: '#6692FF', shortName: 'RB' },
+  { id: 'sauber',     name: 'Kick Sauber',         color: '#52E252', shortName: 'SAU' },
+];
+
+export const MODERN_DRIVERS_2024 = [
+  { id: 1,  name: 'M. Verstappen', team: 'red_bull',  num: 1,  skill: 0.97 },
+  { id: 2,  name: 'S. Pérez',      team: 'red_bull',  num: 11, skill: 0.85 },
+  { id: 3,  name: 'C. Leclerc',    team: 'ferrari',   num: 16, skill: 0.93 },
+  { id: 4,  name: 'C. Sainz',      team: 'ferrari',   num: 55, skill: 0.90 },
+  { id: 5,  name: 'L. Hamilton',   team: 'mercedes',  num: 44, skill: 0.94 },
+  { id: 6,  name: 'G. Russell',    team: 'mercedes',  num: 63, skill: 0.88 },
+  { id: 7,  name: 'L. Norris',     team: 'mclaren',   num: 4,  skill: 0.94 },
+  { id: 8,  name: 'O. Piastri',    team: 'mclaren',   num: 81, skill: 0.89 },
+  { id: 9,  name: 'F. Alonso',     team: 'aston',     num: 14, skill: 0.90 },
+  { id: 10, name: 'L. Stroll',     team: 'aston',     num: 18, skill: 0.78 },
+  { id: 11, name: 'E. Ocon',       team: 'alpine',    num: 31, skill: 0.80 },
+  { id: 12, name: 'P. Gasly',      team: 'alpine',    num: 10, skill: 0.81 },
+  { id: 13, name: 'A. Albon',      team: 'williams',  num: 23, skill: 0.82 },
+  { id: 14, name: 'L. Sargeant',   team: 'williams',  num: 2,  skill: 0.72 },
+  { id: 15, name: 'K. Magnussen',  team: 'haas',      num: 20, skill: 0.79 },
+  { id: 16, name: 'N. Hülkenberg', team: 'haas',      num: 27, skill: 0.83 },
+  { id: 17, name: 'D. Ricciardo',  team: 'rb',        num: 3,  skill: 0.82 },
+  { id: 18, name: 'Y. Tsunoda',    team: 'rb',        num: 22, skill: 0.81 },
+  { id: 19, name: 'V. Bottas',     team: 'sauber',    num: 77, skill: 0.79 },
+  { id: 20, name: 'G. Zhou',       team: 'sauber',    num: 24, skill: 0.76 },
+];
+
+export const MODERN_DRIVERS_2025 = [
+  { id: 1,  name: 'M. Verstappen', team: 'red_bull',  num: 1,  skill: 0.97 },
+  { id: 2,  name: 'L. Lawson',     team: 'red_bull',  num: 30, skill: 0.82 },
+  { id: 3,  name: 'C. Leclerc',    team: 'ferrari',   num: 16, skill: 0.93 },
+  { id: 4,  name: 'L. Hamilton',   team: 'ferrari',   num: 44, skill: 0.94 },
+  { id: 5,  name: 'G. Russell',    team: 'mercedes',  num: 63, skill: 0.90 },
+  { id: 6,  name: 'A. Antonelli',  team: 'mercedes',  num: 12, skill: 0.83 },
+  { id: 7,  name: 'L. Norris',     team: 'mclaren',   num: 4,  skill: 0.95 },
+  { id: 8,  name: 'O. Piastri',    team: 'mclaren',   num: 81, skill: 0.90 },
+  { id: 9,  name: 'F. Alonso',     team: 'aston',     num: 14, skill: 0.89 },
+  { id: 10, name: 'L. Stroll',     team: 'aston',     num: 18, skill: 0.78 },
+  { id: 11, name: 'P. Gasly',      team: 'alpine',    num: 10, skill: 0.81 },
+  { id: 12, name: 'J. Doohan',     team: 'alpine',    num: 7,  skill: 0.77 },
+  { id: 13, name: 'A. Albon',      team: 'williams',  num: 23, skill: 0.83 },
+  { id: 14, name: 'C. Sainz',      team: 'williams',  num: 55, skill: 0.91 },
+  { id: 15, name: 'O. Bearman',    team: 'haas',      num: 87, skill: 0.80 },
+  { id: 16, name: 'E. Cheever',    team: 'haas',      num: 50, skill: 0.75 },
+  { id: 17, name: 'I. Hadjar',     team: 'rb',        num: 6,  skill: 0.79 },
+  { id: 18, name: 'Y. Tsunoda',    team: 'rb',        num: 22, skill: 0.82 },
+  { id: 19, name: 'N. Hülkenberg', team: 'sauber',    num: 27, skill: 0.84 },
+  { id: 20, name: 'G. Bortoleto',  team: 'sauber',    num: 5,  skill: 0.80 },
+];
+
+// ─── Classic Era Drivers (by decade) ───
+export const CLASSIC_DRIVERS = {
+  '1950s': [
+    { name: 'J. Fangio',     num: 1,  skill: 0.98, country: 'ARG', color: '#C0392B' },
+    { name: 'S. Moss',       num: 7,  skill: 0.95, country: 'GBR', color: '#2980B9' },
+    { name: 'M. Hawthorn',   num: 10, skill: 0.88, country: 'GBR', color: '#27AE60' },
+    { name: 'P. Collins',    num: 14, skill: 0.85, country: 'GBR', color: '#F39C12' },
+    { name: 'L. Musso',      num: 20, skill: 0.83, country: 'ITA', color: '#8E44AD' },
+    { name: 'J. Behra',      num: 26, skill: 0.84, country: 'FRA', color: '#16A085' },
+    { name: 'T. Brooks',     num: 34, skill: 0.85, country: 'GBR', color: '#D35400' },
+    { name: 'R. Salvadori',  num: 42, skill: 0.78, country: 'GBR', color: '#7F8C8D' },
+    { name: 'H. Schell',     num: 18, skill: 0.79, country: 'USA', color: '#2C3E50' },
+    { name: 'W. von Trips',  num: 6,  skill: 0.87, country: 'GER', color: '#BDC3C7' },
+  ],
+  '1960s': [
+    { name: 'J. Clark',      num: 5,  skill: 0.98, country: 'GBR', color: '#2ECC71' },
+    { name: 'G. Hill',       num: 16, skill: 0.93, country: 'GBR', color: '#1ABC9C' },
+    { name: 'J. Surtees',    num: 2,  skill: 0.91, country: 'GBR', color: '#C0392B' },
+    { name: 'D. Hulme',      num: 3,  skill: 0.89, country: 'NZL', color: '#F39C12' },
+    { name: 'J. Rindt',      num: 22, skill: 0.94, country: 'AUT', color: '#E74C3C' },
+    { name: 'B. McLaren',    num: 11, skill: 0.88, country: 'NZL', color: '#E67E22' },
+    { name: 'C. Amon',       num: 9,  skill: 0.90, country: 'NZL', color: '#3498DB' },
+    { name: 'J. Stewart',    num: 10, skill: 0.96, country: 'GBR', color: '#2980B9' },
+    { name: 'D. Gurney',     num: 36, skill: 0.87, country: 'USA', color: '#8E44AD' },
+    { name: 'P. Rodriguez',  num: 14, skill: 0.84, country: 'MEX', color: '#27AE60' },
+  ],
+  '1970s': [
+    { name: 'N. Lauda',      num: 1,  skill: 0.96, country: 'AUT', color: '#C0392B' },
+    { name: 'J. Hunt',       num: 11, skill: 0.93, country: 'GBR', color: '#F39C12' },
+    { name: 'C. Regazzoni',  num: 2,  skill: 0.87, country: 'SUI', color: '#E74C3C' },
+    { name: 'E. Fittipaldi', num: 5,  skill: 0.92, country: 'BRA', color: '#F1C40F' },
+    { name: 'M. Andretti',   num: 6,  skill: 0.91, country: 'USA', color: '#E67E22' },
+    { name: 'J. Scheckter',  num: 10, skill: 0.90, country: 'ZAF', color: '#2ECC71' },
+    { name: 'P. Depailler',  num: 8,  skill: 0.85, country: 'FRA', color: '#3498DB' },
+    { name: 'C. Reutemann',  num: 12, skill: 0.89, country: 'ARG', color: '#95A5A6' },
+    { name: 'R. Peterson',   num: 3,  skill: 0.93, country: 'SWE', color: '#E74C3C' },
+    { name: 'G. Villeneuve', num: 27, skill: 0.96, country: 'CAN', color: '#C0392B' },
+  ],
+};
+
+// ─── Modern race calendar (real results where available) ───
+export const SEASONS = {
+  2025: {
+    year: 2025,
+    drivers: MODERN_DRIVERS_2025,
+    races: [
+      { round: 1,  sessionKey: 9839,  name: 'Gran Premio de Australia',     circuit: 'Albert Park',        country: 'AUS', date: '2025-03-16', completed: true,  winner: 'L. Norris',     winnerTeam: 'mclaren',  laps: 58 },
+      { round: 2,  sessionKey: 9857,  name: 'Gran Premio de China',          circuit: 'Shanghai',           country: 'CHN', date: '2025-03-23', completed: true,  winner: 'O. Piastri',    winnerTeam: 'mclaren',  laps: 56 },
+      { round: 3,  sessionKey: 9878,  name: 'Gran Premio de Japón',          circuit: 'Suzuka',             country: 'JPN', date: '2025-04-06', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 53 },
+      { round: 4,  sessionKey: null,  name: 'Gran Premio de Bahréin',        circuit: 'Sakhir',             country: 'BHR', date: '2025-04-13', completed: false, winner: null,            winnerTeam: null,       laps: 57 },
+      { round: 5,  sessionKey: null,  name: 'Gran Premio de Arabia Saudita', circuit: 'Jeddah',             country: 'KSA', date: '2025-04-20', completed: false, winner: null,            winnerTeam: null,       laps: 50 },
+      { round: 6,  sessionKey: null,  name: 'Gran Premio de Miami',          circuit: 'Miami',              country: 'USA', date: '2025-05-04', completed: false, winner: null,            winnerTeam: null,       laps: 57 },
+      { round: 7,  sessionKey: null,  name: 'Gran Premio de Emilia-Romaña',  circuit: 'Imola',              country: 'ITA', date: '2025-05-18', completed: false, winner: null,            winnerTeam: null,       laps: 63 },
+      { round: 8,  sessionKey: null,  name: 'Gran Premio de Mónaco',         circuit: 'Monte Carlo',        country: 'MON', date: '2025-05-25', completed: false, winner: null,            winnerTeam: null,       laps: 78 },
+      { round: 9,  sessionKey: null,  name: 'Gran Premio de España',         circuit: 'Barcelona',          country: 'ESP', date: '2025-06-01', completed: false, winner: null,            winnerTeam: null,       laps: 66 },
+      { round: 10, sessionKey: null,  name: 'Gran Premio de Canadá',         circuit: 'Gilles Villeneuve',  country: 'CAN', date: '2025-06-15', completed: false, winner: null,            winnerTeam: null,       laps: 70 },
+      { round: 11, sessionKey: null,  name: 'Gran Premio de Austria',        circuit: 'Red Bull Ring',      country: 'AUT', date: '2025-06-29', completed: false, winner: null,            winnerTeam: null,       laps: 71 },
+      { round: 12, sessionKey: null,  name: 'Gran Premio de Gran Bretaña',   circuit: 'Silverstone',        country: 'GBR', date: '2025-07-06', completed: false, winner: null,            winnerTeam: null,       laps: 52 },
+      { round: 13, sessionKey: null,  name: 'Gran Premio de Bélgica',        circuit: 'Spa-Francorchamps',  country: 'BEL', date: '2025-07-27', completed: false, winner: null,            winnerTeam: null,       laps: 44 },
+      { round: 14, sessionKey: null,  name: 'Gran Premio de Hungría',        circuit: 'Hungaroring',        country: 'HUN', date: '2025-08-03', completed: false, winner: null,            winnerTeam: null,       laps: 70 },
+      { round: 15, sessionKey: null,  name: 'Gran Premio de Países Bajos',   circuit: 'Zandvoort',          country: 'NLD', date: '2025-08-31', completed: false, winner: null,            winnerTeam: null,       laps: 72 },
+      { round: 16, sessionKey: null,  name: 'Gran Premio de Italia',         circuit: 'Monza',              country: 'ITA', date: '2025-09-07', completed: false, winner: null,            winnerTeam: null,       laps: 53 },
+      { round: 17, sessionKey: null,  name: 'Gran Premio de Azerbaiyán',     circuit: 'Bakú',               country: 'AZE', date: '2025-09-21', completed: false, winner: null,            winnerTeam: null,       laps: 51 },
+      { round: 18, sessionKey: null,  name: 'Gran Premio de Singapur',       circuit: 'Marina Bay',         country: 'SGP', date: '2025-10-05', completed: false, winner: null,            winnerTeam: null,       laps: 62 },
+      { round: 19, sessionKey: null,  name: 'Gran Premio de Estados Unidos', circuit: 'COTA',               country: 'USA', date: '2025-10-19', completed: false, winner: null,            winnerTeam: null,       laps: 56 },
+      { round: 20, sessionKey: null,  name: 'Gran Premio de México',         circuit: 'Hermanos Rodríguez', country: 'MEX', date: '2025-10-26', completed: false, winner: null,            winnerTeam: null,       laps: 71 },
+      { round: 21, sessionKey: null,  name: 'Gran Premio de Brasil',         circuit: 'Interlagos',         country: 'BRA', date: '2025-11-09', completed: false, winner: null,            winnerTeam: null,       laps: 71 },
+      { round: 22, sessionKey: null,  name: 'Gran Premio de Las Vegas',      circuit: 'Las Vegas',          country: 'USA', date: '2025-11-22', completed: false, winner: null,            winnerTeam: null,       laps: 50 },
+      { round: 23, sessionKey: null,  name: 'Gran Premio de Qatar',          circuit: 'Losail',             country: 'QAT', date: '2025-11-30', completed: false, winner: null,            winnerTeam: null,       laps: 57 },
+      { round: 24, sessionKey: null,  name: 'Gran Premio de Abu Dhabi',      circuit: 'Yas Marina',         country: 'ARE', date: '2025-12-07', completed: false, winner: null,            winnerTeam: null,       laps: 58 },
+    ]
+  },
+  2024: {
+    year: 2024,
+    drivers: MODERN_DRIVERS_2024,
+    races: [
+      { round: 1,  sessionKey: 9471, name: 'Gran Premio de Bahréin',        circuit: 'Sakhir',             country: 'BHR', date: '2024-03-02', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 57 },
+      { round: 2,  sessionKey: 9480, name: 'Gran Premio de Arabia Saudita', circuit: 'Jeddah',             country: 'KSA', date: '2024-03-09', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 50 },
+      { round: 3,  sessionKey: 9490, name: 'Gran Premio de Australia',      circuit: 'Albert Park',        country: 'AUS', date: '2024-03-24', completed: true,  winner: 'C. Sainz',      winnerTeam: 'ferrari',  laps: 58 },
+      { round: 4,  sessionKey: 9502, name: 'Gran Premio de Japón',          circuit: 'Suzuka',             country: 'JPN', date: '2024-04-07', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 53 },
+      { round: 5,  sessionKey: 9512, name: 'Gran Premio de China',          circuit: 'Shanghai',           country: 'CHN', date: '2024-04-21', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 56 },
+      { round: 6,  sessionKey: 9521, name: 'Gran Premio de Miami',          circuit: 'Miami',              country: 'USA', date: '2024-05-05', completed: true,  winner: 'L. Norris',     winnerTeam: 'mclaren',  laps: 57 },
+      { round: 7,  sessionKey: 9533, name: 'Gran Premio de Emilia-Romaña',  circuit: 'Imola',              country: 'ITA', date: '2024-05-19', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 63 },
+      { round: 8,  sessionKey: 9543, name: 'Gran Premio de Mónaco',         circuit: 'Monte Carlo',        country: 'MON', date: '2024-05-26', completed: true,  winner: 'C. Leclerc',    winnerTeam: 'ferrari',  laps: 78 },
+      { round: 9,  sessionKey: 9553, name: 'Gran Premio de Canadá',         circuit: 'Gilles Villeneuve',  country: 'CAN', date: '2024-06-09', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 70 },
+      { round: 10, sessionKey: 9562, name: 'Gran Premio de España',         circuit: 'Barcelona',          country: 'ESP', date: '2024-06-23', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 66 },
+      { round: 11, sessionKey: 9573, name: 'Gran Premio de Austria',        circuit: 'Red Bull Ring',      country: 'AUT', date: '2024-06-30', completed: true,  winner: 'G. Russell',    winnerTeam: 'mercedes', laps: 71 },
+      { round: 12, sessionKey: 9582, name: 'Gran Premio de Gran Bretaña',   circuit: 'Silverstone',        country: 'GBR', date: '2024-07-07', completed: true,  winner: 'L. Hamilton',   winnerTeam: 'mercedes', laps: 52 },
+      { round: 13, sessionKey: 9591, name: 'Gran Premio de Hungría',        circuit: 'Hungaroring',        country: 'HUN', date: '2024-07-21', completed: true,  winner: 'O. Piastri',    winnerTeam: 'mclaren',  laps: 70 },
+      { round: 14, sessionKey: 9600, name: 'Gran Premio de Bélgica',        circuit: 'Spa-Francorchamps',  country: 'BEL', date: '2024-07-28', completed: true,  winner: 'L. Hamilton',   winnerTeam: 'mercedes', laps: 44 },
+      { round: 15, sessionKey: 9609, name: 'Gran Premio de Países Bajos',   circuit: 'Zandvoort',          country: 'NLD', date: '2024-09-25', completed: true,  winner: 'L. Norris',     winnerTeam: 'mclaren',  laps: 72 },
+      { round: 16, sessionKey: 9618, name: 'Gran Premio de Italia',         circuit: 'Monza',              country: 'ITA', date: '2024-09-01', completed: true,  winner: 'C. Leclerc',    winnerTeam: 'ferrari',  laps: 53 },
+      { round: 17, sessionKey: 9627, name: 'Gran Premio de Azerbaiyán',     circuit: 'Bakú',               country: 'AZE', date: '2024-09-15', completed: true,  winner: 'C. Leclerc',    winnerTeam: 'ferrari',  laps: 51 },
+      { round: 18, sessionKey: 9636, name: 'Gran Premio de Singapur',       circuit: 'Marina Bay',         country: 'SGP', date: '2024-09-22', completed: true,  winner: 'L. Norris',     winnerTeam: 'mclaren',  laps: 62 },
+      { round: 19, sessionKey: 9651, name: 'Gran Premio de Estados Unidos', circuit: 'COTA',               country: 'USA', date: '2024-10-20', completed: true,  winner: 'C. Leclerc',    winnerTeam: 'ferrari',  laps: 56 },
+      { round: 20, sessionKey: 9660, name: 'Gran Premio de México',         circuit: 'Hermanos Rodríguez', country: 'MEX', date: '2024-10-27', completed: true,  winner: 'C. Sainz',      winnerTeam: 'ferrari',  laps: 71 },
+      { round: 21, sessionKey: 9670, name: 'Gran Premio de Brasil',         circuit: 'Interlagos',         country: 'BRA', date: '2024-11-03', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 71 },
+      { round: 22, sessionKey: 9680, name: 'Gran Premio de Las Vegas',      circuit: 'Las Vegas',          country: 'USA', date: '2024-11-23', completed: true,  winner: 'C. Sainz',      winnerTeam: 'ferrari',  laps: 50 },
+      { round: 23, sessionKey: 9690, name: 'Gran Premio de Qatar',          circuit: 'Losail',             country: 'QAT', date: '2024-12-01', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 57 },
+      { round: 24, sessionKey: 9702, name: 'Gran Premio de Abu Dhabi',      circuit: 'Yas Marina',         country: 'ARE', date: '2024-12-08', completed: true,  winner: 'L. Norris',     winnerTeam: 'mclaren',  laps: 58 },
+    ]
+  },
+  2023: {
+    year: 2023,
+    races: [
+      // session_keys sourced from OpenF1 /sessions?year=2023&session_name=Race
+      { round: 1,  sessionKey: null, name: 'Gran Premio de Bahréin',        circuit: 'Sakhir',             country: 'BHR', date: '2023-03-05', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 57 },
+      { round: 2,  sessionKey: null, name: 'Gran Premio de Arabia Saudita', circuit: 'Jeddah',             country: 'KSA', date: '2023-03-19', completed: true,  winner: 'S. Pérez',      winnerTeam: 'red_bull', laps: 50 },
+      { round: 3,  sessionKey: null, name: 'Gran Premio de Australia',      circuit: 'Albert Park',        country: 'AUS', date: '2023-04-02', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 58 },
+      { round: 4,  sessionKey: null, name: 'Gran Premio de Azerbaiyán',     circuit: 'Bakú',               country: 'AZE', date: '2023-04-30', completed: true,  winner: 'S. Pérez',      winnerTeam: 'red_bull', laps: 51 },
+      { round: 5,  sessionKey: null, name: 'Gran Premio de Miami',          circuit: 'Miami',              country: 'USA', date: '2023-05-07', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 57 },
+      { round: 6,  sessionKey: null, name: 'Gran Premio de Mónaco',         circuit: 'Monte Carlo',        country: 'MON', date: '2023-05-28', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 78 },
+      { round: 7,  sessionKey: null, name: 'Gran Premio de España',         circuit: 'Barcelona',          country: 'ESP', date: '2023-06-04', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 66 },
+      { round: 8,  sessionKey: null, name: 'Gran Premio de Canadá',         circuit: 'Gilles Villeneuve',  country: 'CAN', date: '2023-06-18', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 70 },
+      { round: 9,  sessionKey: null, name: 'Gran Premio de Austria',        circuit: 'Red Bull Ring',      country: 'AUT', date: '2023-07-02', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 71 },
+      { round: 10, sessionKey: null, name: 'Gran Premio de Gran Bretaña',   circuit: 'Silverstone',        country: 'GBR', date: '2023-07-09', completed: true,  winner: 'L. Hamilton',   winnerTeam: 'mercedes', laps: 52 },
+      { round: 11, sessionKey: null, name: 'Gran Premio de Hungría',        circuit: 'Hungaroring',        country: 'HUN', date: '2023-07-23', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 70 },
+      { round: 12, sessionKey: null, name: 'Gran Premio de Bélgica',        circuit: 'Spa-Francorchamps',  country: 'BEL', date: '2023-07-30', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 44 },
+      { round: 13, sessionKey: null, name: 'Gran Premio de Países Bajos',   circuit: 'Zandvoort',          country: 'NLD', date: '2023-08-27', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 72 },
+      { round: 14, sessionKey: null, name: 'Gran Premio de Italia',         circuit: 'Monza',              country: 'ITA', date: '2023-09-03', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 51 },
+      { round: 15, sessionKey: null, name: 'Gran Premio de Singapur',       circuit: 'Marina Bay',         country: 'SGP', date: '2023-09-17', completed: true,  winner: 'C. Sainz',      winnerTeam: 'ferrari',  laps: 62 },
+      { round: 16, sessionKey: null, name: 'Gran Premio de Japón',          circuit: 'Suzuka',             country: 'JPN', date: '2023-09-24', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 53 },
+      { round: 17, sessionKey: null, name: 'Gran Premio de Qatar',          circuit: 'Losail',             country: 'QAT', date: '2023-10-08', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 57 },
+      { round: 18, sessionKey: null, name: 'Gran Premio de Estados Unidos', circuit: 'COTA',               country: 'USA', date: '2023-10-22', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 56 },
+      { round: 19, sessionKey: null, name: 'Gran Premio de México',         circuit: 'Hermanos Rodríguez', country: 'MEX', date: '2023-10-29', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 71 },
+      { round: 20, sessionKey: null, name: 'Gran Premio de Brasil',         circuit: 'Interlagos',         country: 'BRA', date: '2023-11-05', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 71 },
+      { round: 21, sessionKey: null, name: 'Gran Premio de Las Vegas',      circuit: 'Las Vegas',          country: 'USA', date: '2023-11-18', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 50 },
+      { round: 22, sessionKey: null, name: 'Gran Premio de Abu Dhabi',      circuit: 'Yas Marina',         country: 'ARE', date: '2023-11-26', completed: true,  winner: 'M. Verstappen', winnerTeam: 'red_bull', laps: 58 },
+    ]
+  }
+};
+
+// Helper: get team color
+export function getTeamColor(teamId) {
+  return MODERN_TEAMS.find(t => t.id === teamId)?.color || '#888';
+}
+
+// Country flag emojis
+export const FLAGS = {
+  AUS:'🇦🇺', CHN:'🇨🇳', JPN:'🇯🇵', BHR:'🇧🇭', KSA:'🇸🇦', USA:'🇺🇸',
+  ITA:'🇮🇹', MON:'🇲🇨', ESP:'🇪🇸', CAN:'🇨🇦', AUT:'🇦🇹', GBR:'🇬🇧',
+  BEL:'🇧🇪', HUN:'🇭🇺', NLD:'🇳🇱', AZE:'🇦🇿', SGP:'🇸🇬', MEX:'🇲🇽',
+  BRA:'🇧🇷', QAT:'🇶🇦', ARE:'🇦🇪', GER:'🇩🇪', FRA:'🇫🇷', ARG:'🇦🇷',
+  SUI:'🇨🇭', NZL:'🇳🇿', ZAF:'🇿🇦', SWE:'🇸🇪',
+};
